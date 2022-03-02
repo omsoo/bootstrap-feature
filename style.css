@@ -1,11 +1,18 @@
+body {
+  background: #e5e5e5;
+}
+
 .headline {
   height: 100vh;
   padding-left: 300px;
-  width: ;
+  /* background-color: #fff; */
 }
 
 .background {
   background-image: url(imgs/mobile-background.svg);
+  background-color: #fff;
+  background-size: 90%;
+  background-repeat: no-repeat;
 }
 
 .img-style {
@@ -20,4 +27,10 @@
   background: #ebebff;
   color: #a2aaff;
   border-radius: 0.5rem !important;
+}
+
+.about-container {
+  background: #fff;
+  border-top-right-radius: 5rem !important;
+  height: 70vh;
 }
